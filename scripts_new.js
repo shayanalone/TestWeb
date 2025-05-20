@@ -595,7 +595,7 @@ async function resetData() {
 
 // Load Data
 async function loadData() {
-    await resetData();
+    // await resetData();
     try {
         deviceId = localStorage.getItem("Device_Id");
         if (!deviceId) {
